@@ -1,0 +1,156 @@
+/* This is stuff for the navbar list */
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: bold;
+	color: black;
+  margin-left: 5px;
+}
+li {
+	float: left;
+	position: relative;
+	width: 145px;
+	border: 1px solid black;
+  margin-left: -1px;
+  padding: 2px 1px 2px 1px;
+	background: white;
+	color: black;
+  margin-top: 3px;
+}
+li ul {
+	display: none;
+	position: absolute;
+  margin-left: -1px;
+  margin-top: 3px;
+}
+li:hover ul, li.over ul {
+	display: block;
+}
+ul.dropdown a {
+	color: black;
+	background-color: white;
+	font-weight: normal;
+}
+ul.dropdown li {
+}
+ul.dropdown li.last {
+	border-bottom: 1px solid black;
+}
+
+body, td, input, textarea, select {
+	font-family: Verdana, Tahoma, Serif;
+	font-size: 10pt;
+	color: #000000;
+	/* background: white url(/images/background.clouds.small.jpg) no-repeat fixed center center; */
+}
+
+body {
+	margin: 20px 20px 0px 20px;
+	background: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: black;
+}
+a:active {
+	color: black;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#mainContent {
+    margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid black;
+	width: 750px;
+	/*height: 700px;*/
+
+
+}
+#pageFooter {
+	font-size: 8pt;
+}
+
+#navBar {
+   /*  width: 150px; */
+   	text-align: center;
+	background-color: white;
+	color: black;
+    padding: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: solid 1px black; */
+	/* border-top: none; */
+	/* float: right; */
+	margin-bottom: 20px;
+
+}
+
+
+#imageSet {
+	float: left;
+	margin: 20px;
+}
+
+#imageStrip {
+	text-align: center;
+	padding: 0px;
+	margin-right: 0px;
+	/* overflow: hidden; */
+	padding-left: 0px;
+	margin-bottom: 20px;
+	/* white-space: nowrap;
+	width: 620px; */
+	float:left;
+	margin-top: -3px;
+}
+
+#imageStrip img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+a.nav {
+	color: black;
+}
+
+#indexLogo {
+    border: 0px;
+	text-align: center;
+}
+
+#indexBox {
+	margin-left: auto;
+	margin-right: auto;
+	/* border-bottom: solid 1px black; */
+	text-align: center;
+}
+
+#thumbDest {
+	/*float: right;*/
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.rightText {
+	float: right;
+}
+
+a { color: black; }
